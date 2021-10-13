@@ -1,3 +1,4 @@
+
 h2.title2{
     font-weight: 100;
     letter-spacing: 2px;
@@ -11,4 +12,74 @@ span.title{
     color:rgb(209,93,0);
 }
 
+img.work-images{
+  object-fit: scale-down;
+  height: 380px;
+  width: 400px;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container-work:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+
+
+.title-work {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 100px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.container-work:hover .title-work {
+  top: 30px;
+}
+
+.button-work {
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 100px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button-work a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container-work:hover .button-work {
+  opacity: 1;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  
+  
+  }
+}

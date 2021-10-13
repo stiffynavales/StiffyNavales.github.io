@@ -82,7 +82,9 @@ input, select, textarea {
 
 		html, body {
 			min-width: 320px;
+			
 		}
+		
 
 	}
 
@@ -597,6 +599,8 @@ input, select, textarea {
 			border-radius: 0;
 			padding: 0;
 		}
+
+		
 
 /* Icon */
 

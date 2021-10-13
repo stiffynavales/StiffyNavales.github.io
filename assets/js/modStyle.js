@@ -4,3 +4,4 @@ var typed = new Typed(".title", {
     backSpeed: 60,
     loop: true
 });
+
