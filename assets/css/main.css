@@ -198,6 +198,8 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+			text-align: center
+			
 		}
 
 	h1 {
@@ -210,6 +212,7 @@ input, select, textarea {
 		font-size: 1.5rem;
 		line-height: 1.4;
 		letter-spacing: 0.5rem;
+		
 	}
 
 	h3 {
@@ -785,11 +788,12 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: grid;
 		cursor: default;
 		list-style: none;
 		margin-left: -1rem;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.actions li {
@@ -907,6 +911,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.icons li {

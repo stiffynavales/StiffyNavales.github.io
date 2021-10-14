@@ -7,6 +7,9 @@ h2.title2{
 p.hello{
   margin-bottom: 2px;  
 }
+.p-work{
+text-align: center;
+}
 
 span.title{
     color:rgb(209,93,0);
@@ -33,12 +36,27 @@ img.work-images{
   background: rgba(0, 0, 0, .3);
 }
 
+.h2-contact{
+  text-align: center;
+	padding-bottom: 0.9rem;
+	margin: 0 0 2rem 0;
+  font-size: 1.5rem;
+	line-height: 1.4;
+	letter-spacing: 0.5rem; 
+ 
+}
 
+/* .border-contact{
+  border-bottom: 3px solid rgb(255, 255, 255);
+  padding-bottom: 3px;
+  width: 170px;
+  
+} */
 
 .title-work {
   position: absolute;
   width: 500px;
-  left: 0;
+  left: 30px;
   top: 100px;
   font-weight: 700;
   font-size: 30px;
@@ -56,7 +74,7 @@ img.work-images{
 .button-work {
   position: absolute;
   width: 500px;
-  left:0;
+  left:30px;
   top: 100px;
   text-align: center;
   opacity: 0;
@@ -76,9 +94,49 @@ img.work-images{
   opacity: 1;
 }
 
+@media screen and (max-width: 736px) {
 
-
-@media screen and (max-width: 500px) {
-  
-  
+  .title-work {
+    visibility: hidden;
+    
   }
+
+  .button-work {
+    visibility: hidden;
+    
+  }
+
+}
+
+@media screen and (min-width: 1681px) {
+
+  .title-work {
+    position: absolute;
+    width: 500px;
+    left: 120px;
+    top: 150px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 500px;
+    left:120px;
+    top: 190px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+
+  .container-work:hover .title-work {
+    top: 110px;
+  }
+
+}
+
