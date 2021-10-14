@@ -94,6 +94,10 @@ img.work-images{
   opacity: 1;
 }
 
+
+
+
+
 @media screen and (max-width: 736px) {
 
   .title-work {
@@ -125,6 +129,41 @@ img.work-images{
   
 
 }
+
+@media screen and (min-width: 360px) {
+
+  .title-work {
+    position: absolute;
+    width: 250px;
+    top: 70px;
+    left: 25px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+    
+  }
+
+  .button-work {
+    position: absolute;
+    width: 100px;
+    left:80px;
+    top: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    
+  }
+  
+  .container-work:hover .title-work {
+    top: 10px;
+  }
+  
+
+}
+
 
 @media screen and (min-width: 1681px) {
 
