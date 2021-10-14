@@ -55,9 +55,9 @@ img.work-images{
 
 .title-work {
   position: absolute;
-  width: 500px;
-  left: 30px;
-  top: 100px;
+  width: 700px;
+  left: auto;
+  top: 180px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -68,14 +68,14 @@ img.work-images{
 }
 
 .container-work:hover .title-work {
-  top: 30px;
+  top: 100px;
 }
 
 .button-work {
   position: absolute;
-  width: 500px;
-  left:30px;
-  top: 100px;
+  width: 700px;
+  left:auto;
+  top: 160px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -94,86 +94,55 @@ img.work-images{
   opacity: 1;
 }
 
-
-
-
-
-@media screen and (max-width: 736px) {
-
+@media screen and (max-width: 480px) {
   .title-work {
     position: absolute;
-    width: 250px;
-    top: 130px;
-    left: 128px;
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    z-index: 1;
-    transition: top .5s ease;
-    
-  }
-
-  .button-work {
-    position: absolute;
-    width: 250px;
-    left:128px;
-    top: 90px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity .35s ease;
-    
-  }
-  
-
-  
-
-}
-
-@media screen and (min-width: 360px) {
-
-  .title-work {
-    position: absolute;
-    width: 250px;
-    top: 70px;
-    left: 25px;
+    width: 275px;
+    left: center;
+    top: 80px;
+    font-weight: 700px;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     color: white;
     z-index: 1;
     transition: top .5s ease;
-    
+  }
+
+  .container-work:hover .title-work {
+    top: 40px;
   }
 
   .button-work {
     position: absolute;
-    width: 100px;
-    left:80px;
-    top: 50px;
+    width: 275px;
+    left:center;
+    top: 80px;
     text-align: center;
     opacity: 0;
     transition: opacity .35s ease;
-    
   }
   
-  .container-work:hover .title-work {
-    top: 10px;
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
   }
   
-
+  
 }
 
-
-@media screen and (min-width: 1681px) {
-
+@media screen and (max-width: 375px) {
   .title-work {
     position: absolute;
-    width: 500px;
-    left: 120px;
-    top: 150px;
-    font-weight: 700;
-    font-size: 30px;
+    width: 230px;
+    left: center;
+    top: 50px;
+    font-weight: 700px;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     color: white;
@@ -181,19 +150,112 @@ img.work-images{
     transition: top .5s ease;
   }
 
+  .container-work:hover .title-work {
+    top: 10px;
+  }
+
   .button-work {
     position: absolute;
-    width: 500px;
-    left:120px;
-    top: 190px;
+    width: 230px;
+    left:center;
+    top: 50px;
     text-align: center;
     opacity: 0;
     transition: opacity .35s ease;
   }
+  
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
+}
 
-  .container-work:hover .title-work {
-    top: 110px;
+@media screen and (max-width: 360px) {
+  .title-work {
+    position: absolute;
+    width: 230px;
+    left: center;
+    top: 50px;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
   }
 
+  .container-work:hover .title-work {
+    top: 10px;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 230px;
+    left:center;
+    top: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
 }
+
+@media screen and (max-width: 320px) {
+  .title-work {
+    position: absolute;
+    width: 200px;
+    left: center;
+    top: 50px;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .container-work:hover .title-work {
+    top: 10px;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 200px;
+    left:center;
+    top: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
+}
+
 
