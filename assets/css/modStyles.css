@@ -46,12 +46,6 @@ img.work-images{
  
 }
 
-/* .border-contact{
-  border-bottom: 3px solid rgb(255, 255, 255);
-  padding-bottom: 3px;
-  width: 170px;
-  
-} */
 
 .title-work {
   position: absolute;
@@ -94,12 +88,180 @@ img.work-images{
   opacity: 1;
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 2180px) {
   .title-work {
     position: absolute;
-    width: 275px;
-    left: center;
-    top: 80px;
+    width: 750px;
+    align-items: center;
+    top: 180px;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .container-work:hover .title-work {
+    top: 110px;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 750px;
+    left:center;
+    top: 160px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 1960px) {
+  .title-work {
+    position: absolute;
+    width: 750px;
+    align-items: center;
+    top: 190px;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .container-work:hover .title-work {
+    top: 60px;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 750px;
+    left:center;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
+}
+
+@media screen and (max-width: 1681px) {
+  .title-work {
+    position: absolute;
+    width: 750px;
+    align-items: center;
+    top: 30px;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .container-work:hover .title-work {
+    top: 60px;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 750px;
+    left:center;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
+}
+
+@media screen and (max-width: 1680px) {
+  .title-work {
+    position: absolute;
+    width: 550px;
+    align-items: center;
+    top: 140px;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .container-work:hover .title-work {
+    top: 60px;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 550px;
+    left:center;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button-work a {
+    width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .title-work {
+    position: absolute;
+    width: 550px;
+    align-items: center;
+    top: 110px;
     font-weight: 700px;
     font-size: 20px;
     text-align: center;
@@ -115,9 +277,9 @@ img.work-images{
 
   .button-work {
     position: absolute;
-    width: 275px;
+    width: 550px;
     left:center;
-    top: 80px;
+    top: 90px;
     text-align: center;
     opacity: 0;
     transition: opacity .35s ease;
@@ -135,11 +297,12 @@ img.work-images{
   
 }
 
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 769px) {
   .title-work {
     position: absolute;
-    width: 230px;
-    left: center;
+    width: 320px;
+    align-items: center;
     top: 50px;
     font-weight: 700px;
     font-size: 20px;
@@ -156,7 +319,7 @@ img.work-images{
 
   .button-work {
     position: absolute;
-    width: 230px;
+    width: 320px;
     left:center;
     top: 50px;
     text-align: center;
@@ -176,52 +339,13 @@ img.work-images{
   
 }
 
-@media screen and (max-width: 360px) {
-  .title-work {
-    position: absolute;
-    width: 230px;
-    left: center;
-    top: 50px;
-    font-weight: 700px;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    z-index: 1;
-    transition: top .5s ease;
-  }
 
-  .container-work:hover .title-work {
-    top: 10px;
-  }
-
-  .button-work {
-    position: absolute;
-    width: 230px;
-    left:center;
-    top: 50px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity .35s ease;
-  }
-  
-  .button-work a {
-    width: 200px;
-    padding: 5px 5px;
-    text-align: center;
-    color: white;
-    border: solid 2px white;
-    z-index: 1;
-  }
-  
-  
-}
 
 @media screen and (max-width: 320px) {
   .title-work {
     position: absolute;
-    width: 200px;
-    left: center;
+    width: 260px;
+    align-items: center;
     top: 50px;
     font-weight: 700px;
     font-size: 20px;
@@ -238,7 +362,48 @@ img.work-images{
 
   .button-work {
     position: absolute;
+    width: 260px;
+    left:center;
+    top: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button-work a {
     width: 200px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  
+}
+
+@media screen and (max-width: 321px) {
+  .title-work {
+    position: absolute;
+    width: 250px;
+    align-items: center;
+    top: 50px;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .container-work:hover .title-work {
+    top: 10px;
+  }
+
+  .button-work {
+    position: absolute;
+    width: 250px;
     left:center;
     top: 50px;
     text-align: center;
